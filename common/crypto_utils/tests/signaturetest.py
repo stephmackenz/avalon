@@ -354,7 +354,7 @@ def test_generate_client_signature():
 # -----------------------------------------------------------------------------
 def main():
 
-    logging.info("****Executing unit tests for signature.py****")
+    logging.info("\n\n****Executing unit tests for signature.py****")
     err_cnt = 0
 
     err_cnt += test_calculate_datahash()
